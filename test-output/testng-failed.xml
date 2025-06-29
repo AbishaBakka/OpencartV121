@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Master Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test name="Test(failed)">
+    <parameter name="os" value="mac"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.TC_001_AccountRegistrationPage">
+        <methods>
+          <include name="setUp"/>
+          <include name="verify_account_registration"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.TC_001_AccountRegistrationPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Master Suite] -->

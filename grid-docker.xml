@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Master Suite" thread-count="5" >
+<listeners>
+<listener class-name="utilities.ExtentReportManager"/>
+
+
+</listeners>
+
+
+<test  name="Linux-firefox">
+  <parameter name="os" value="Linux"/>
+   <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testCases.TC_001_AccountRegistrationPage"/>
+       <class name="testCases.TC_002_LoginTest"/>
+       <!--<class name="testCases.TC003_LoginDDT"></class>-->
+    </classes>
+  </test> <!-- Test -->
+
+ <!-- <test  name="Linux-chrome">
+  <parameter name="os" value="Linux"/>
+   <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.TC_001_AccountRegistrationPage"/>
+       <class name="testCases.TC_002_LoginTest"/>
+       <class name="testCases.TC003_LoginDDT"></class>-->
+ <!--  </classes>-->
+  <!--</test> --><!-- Test -->
+</suite> <!-- Suite -->

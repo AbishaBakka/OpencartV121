@@ -1,0 +1,14 @@
+2025-06-25 21:03:57 INFO  TC_001_AccountRegistrationPage:15 - ******  Starting TC_001_AccountRegistrationPage  ******** 
+2025-06-25 21:03:57 INFO  TC_001_AccountRegistrationPage:19 - Clicked on MyAccount Link
+2025-06-25 21:03:57 INFO  TC_001_AccountRegistrationPage:22 - clicked on Register Link
+2025-06-25 21:03:57 INFO  TC_001_AccountRegistrationPage:25 - providing customer details
+2025-06-25 21:03:57 INFO  TC_001_AccountRegistrationPage:43 - Validating expected message...
+2025-06-25 21:03:58 INFO  TC_001_AccountRegistrationPage:61 - ******* Finished TC001_AccountRegistrationTest ********
+2025-06-25 21:03:59 INFO  TC_002_LoginTest:16 - ********* Started TC_002_LoginTest *********
+2025-06-25 21:09:44 INFO  TC_001_AccountRegistrationPage:15 - ******  Starting TC_001_AccountRegistrationPage  ******** 
+2025-06-25 21:09:44 INFO  TC_001_AccountRegistrationPage:19 - Clicked on MyAccount Link
+2025-06-25 21:09:44 INFO  TC_001_AccountRegistrationPage:22 - clicked on Register Link
+2025-06-25 21:09:44 INFO  TC_001_AccountRegistrationPage:25 - providing customer details
+2025-06-25 21:09:44 INFO  TC_001_AccountRegistrationPage:43 - Validating expected message...
+2025-06-25 21:09:45 INFO  TC_001_AccountRegistrationPage:61 - ******* Finished TC001_AccountRegistrationTest ********
+2025-06-25 21:09:46 INFO  TC_002_LoginTest:16 - ********* Started TC_002_LoginTest *********
